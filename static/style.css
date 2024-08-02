@@ -15,12 +15,6 @@ body {
     color:#eee;
   }
 
-  .jumbotron {
-    display: flex;
-    background-color: #1F2937;
-    color: #eee;
-  }
-
   ul {
     list-style: none;
     padding: 0;
@@ -47,4 +41,41 @@ body {
     justify-content: center;
     
   }
+
+  .jumbotron {
+    display: flex;
+    background-color: #1F2937;
+    color: #eee;
+  }
+
+  .items-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+
+  }
+
+  .items-list{
+    display: flex;
+    gap: 24px;
+  }
   
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    background-color: #E5E7EB;
+
+  }
+
+  .btn-signup {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    color: white;
+  }
