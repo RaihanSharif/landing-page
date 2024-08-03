@@ -146,7 +146,7 @@ img {
   color: white;
 }
 
-.left, .right {
-  display: flex;
+.cta-text {
+  margin: auto;
+  text-align: left;
 }
-  
