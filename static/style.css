@@ -7,9 +7,9 @@ body {
   flex: 1;
 }
 
-body * {
+/* body * {
   border: 1px solid red;
-}
+} */
 
 ul {
   list-style: none;
@@ -144,9 +144,21 @@ img {
   justify-content: space-between;
   padding: 40px;
   color: white;
+  /* vertical-align:middle; */
+  align-items: center;
 }
 
 .cta-text {
-  margin: auto;
+  margin: 5px auto;
   text-align: left;
+}
+
+.cta-main {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.cta-secondary {
+  font-weight: lighter;
 }
