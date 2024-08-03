@@ -65,10 +65,38 @@ header {
   text-wrap: wrap;
   margin: auto;
 }
+
 .hero-secondary {
   font-size: 18px;
   color: #E5E7EB;
   text-wrap: wrap;
+}
+
+.information-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+  padding-bottom: 80px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+
+.info {
+  max-width: 200px;
+  text-align: center;
 }
 
 .btn, .cta {
