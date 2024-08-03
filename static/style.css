@@ -24,7 +24,7 @@ a {
 }
 
 .narrow {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   margin: auto;
   max-width: 980px;
@@ -62,7 +62,7 @@ a {
 .hero {
   display: flex;
   gap: 16px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .hero-main {
@@ -133,13 +133,17 @@ img {
   color: white;
 }
 
-.outer-cta {
-  background-color: #55678a;
+.btn-cta {
+  border: 2px solid white;
 }
 
 .inner-cta {
+  border-radius: 10px;
+  background-color: #3882F6;
   display: flex;
   justify-content: space-between;
+  padding: 40px;
+  color: white;
 }
 
 .left, .right {
