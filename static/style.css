@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 /* body * {
@@ -161,4 +160,12 @@ img {
 
 .cta-secondary {
   font-weight: lighter;
+}
+
+.footer {
+  flex-shrink: 0;
+  
+}
+footer {
+  text-align: center;
 }
