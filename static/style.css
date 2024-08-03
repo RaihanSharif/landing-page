@@ -6,6 +6,10 @@ body {
   flex-direction: column;
 }
 
+/* body * {
+  border: 1px solid red;
+} */
+
 ul {
   list-style: none;
   display: flex;
@@ -47,10 +51,19 @@ header {
   color: black;
 }
 
+.hero {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
 .hero-main {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   text-wrap: wrap;
+  margin: auto;
 }
 .hero-secondary {
   font-size: 18px;
@@ -60,6 +73,13 @@ header {
 
 .btn, .cta {
   background-color: #3882F6;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
 }
 
 
